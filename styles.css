@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.first-page-bg{
+    background-image: url(./images/male-chef-kitchen-cooking-dish-frying-pan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.progress-indicator-container{
+    display: flex;
+    margin-top: 30px;
+    /* justify-content: space-around; */
+    justify-content: center;
+}
+
+.progress-indicator1{
+    width: 150px;
+    border: solid 3px #6C4057;
+    /* position: absolute;
+    top: 30px;
+    left: 50px; */
+}
+
+.progress-indicator2{
+    width: 150px;
+    border: solid 3px white;
+    margin: 0 30px;
+    /* position: absolute;
+    top: 30px;
+    left: 230px; */
+}
+
+.background2 .progress-indicator2{
+    width: 150px;
+    border: solid 3px #4D0CBD;
+    /* position: absolute;
+    top: 30px;
+    left: 50px; */
+}
+
+.background3 .progress-indicator2{
+    width: 150px;
+    border: solid 3px #4D0CBD;
+    /* position: absolute;
+    top: 30px;
+    left: 50px; */
+}
+
+.progress-indicator3{
+    width: 150px;
+    border: solid 3px white;
+    /* position: absolute;
+    top: 30px;
+    left: 410px; */
+}
+
+.background3 .progress-indicator3{
+    width: 150px;
+    border: solid 3px #0C9DBD;
+    /* position: absolute;
+    top: 30px;
+    left: 410px; */
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 280px ;
+}
+
+.text3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 240px ;
+}
+
+h1{
+    color: white;
+    font-family: Poppins, inter;
+    text-align: center;
+    line-height: 38px;
+    /* margin-top: 300px; */
+}
+
+p{
+    color:white;
+    font-family: inter;
+    text-align: center;
+    /* margin-top: 11px; */
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 179px;
+}
+
+.background2 .buttons,
+.background3 .buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 216px;
+}
+
+.button1{
+    background-color: #6C4057;
+    border: none;
+    padding: 10px 200px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    cursor:pointer
+}
+
+.background2 .buttons .button1{
+    background-color: #4D0CBD;
+    border: none;
+    padding: 10px 200px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    cursor:pointer
+}
+
+.background3 .buttons .button1{
+    background-color: #0C9DBD;
+    border: none;
+    padding: 10px 200px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    cursor:pointer
+}
+
+.button2{
+    background-color: transparent;
+    color: white;
+    border: solid 2px #6C4057;
+    padding: 10px 200px;
+    border-radius: 15px;
+    cursor:pointer
+}
+
+.background2 .buttons .button2{
+    background-color: transparent;
+    color: white;
+    border: solid 2px #4D0CBD;
+    padding: 10px 200px;
+    border-radius: 15px;
+    cursor:pointer
+}
+
+.background3 .buttons .button2{
+    background-color: transparent;
+    color: white;
+    border: solid 2px #0C9DBD;
+    padding: 10px 200px;
+    border-radius: 15px;
+    cursor:pointer
+}
+
+.second-page-bg{
+    background-image: url(./images/top-view-table-full-delicious-food-composition.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.third-page-bg{
+    background-image: url(./images/delivery-person-getting-parcel-out-delivery.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.back-button{
+    background-color: #0C9DBD;
+    border: none;
+    padding: 10px 17px;
+    border-radius: 15px;
+    margin-top: 24px;
+    display: flex;
+    margin-right: 15px;
+    justify-self: flex-end;
+    cursor: pointer;
+}
+
+
+.background3 .buttons{
+    margin-top: 199px;
+}
