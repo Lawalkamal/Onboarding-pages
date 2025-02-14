@@ -17,6 +17,7 @@
     margin-top: 30px;
     /* justify-content: space-around; */
     justify-content: center;
+    
 }
 
 .progress-indicator1{
@@ -72,14 +73,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 400px ;
+    margin-top: 280px ;
 }
 
 .text3{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 360px ;
+    margin-top: 240px ;
 }
 
 h1{
@@ -102,7 +103,6 @@ p{
     flex-direction: column;
     align-items: center;
     margin-top: 179px;
-    margin-bottom: 50%;
 }
 
 .background2 .buttons,
@@ -111,7 +111,6 @@ p{
     flex-direction: column;
     align-items: center;
     margin-top: 216px;
-    margin-bottom: 50%;
 }
 
 .button1{
